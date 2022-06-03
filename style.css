@@ -1,38 +1,42 @@
-body{
-    display: grid;
-    border-style: groove;
-    justify-content: center;
-}
 header{
     font-style: italic;
     font-weight: bold;
     text-align: center;
 }
-h1{
-    font-size: 16px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-weight: bold;
+.container{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.2fr 1.5fr;
+    border-top: 2px solid black;
+    grid-template-areas:
+      "a1 a1 a1" 
+      "a2 a2 a2"
+      "a3 a3 a3"
+      "a4 a4 a4"
+    ;
 }
-p{
-    font-size: smaller;
+#a1{
+  border-left: 2px solid black;
+  border-bottom: 2px solid black;  
 }
-h2{
-    font-size: 19px;
+#a2{
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
 }
-p{
-    font-size: small;
+#a3{
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
 }
-h3{
-   font-size: 20px; 
+#a4{
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
 }
-p{
-    font-size: small;
-}
-h4{
-    font-size: 20px;
-}
-p{
-    font-size: small;
+img{
+    width: 500px;
+    height: 300px;
 }
 #Politics{
     background-color:#f4f487 ;
