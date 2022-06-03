@@ -1,0 +1,57 @@
+body{
+    display: grid;
+    border-style: groove;
+    justify-content: center;
+}
+header{
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+}
+h1{
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+p{
+    font-size: smaller;
+}
+h2{
+    font-size: 19px;
+}
+p{
+    font-size: small;
+}
+h3{
+   font-size: 20px; 
+}
+p{
+    font-size: small;
+}
+h4{
+    font-size: 20px;
+}
+p{
+    font-size: small;
+}
+#Politics{
+    background-color:#f4f487 ;
+    grid-area: Politics;
+}
+#Technology{
+    background-color: #78c9fb;
+    grid-area: Technology;
+}
+#Locals{
+    background-color: #1a86a9;
+    grid-area: Locals;
+}
+#Opinion{
+    background-color: #4ec8f1;
+    grid-area: Opinion;
+}
+#Sports{
+    background-color: #703682;
+    grid-area: Sports;
+}
+
