@@ -1,32 +1,27 @@
 header{
-    font-style: italic;
-    font-weight: bold;
     text-align: center;
+    font-style: italic;
 }
 .container{
     display: grid;
     height: 100vh;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 0.2fr 1.5fr;
-    border-top: 2px solid black;
-    grid-template-areas:
-      "a1 a1 a1" 
-      "a2 a2 a2"
-      "a3 a3 a3"
-      "a4 a4 a4"
+    grid-template-columns: 1fr,2fr, 1fr;
+    grid-template-rows:4.0fr 1fr 1fr 1fr 1fr 1fr 1fr;
+   border-top: 2px solid black;
+   grid-template-areas:
+   "a1 a1 a1"
+   "a2 a2 a2"
+   "a3 a3 a3"
+   "a4 a4 a4" 
     ;
 }
+  #a2{
+      border-right: 2px solid black;
+      border-left: 2px solid black;
+      border-bottom: 2px solid black;
+  }
 #a1{
-  border-left: 2px solid black;
-  border-bottom: 2px solid black;  
-}
-#a2{
-    border-right: 2px solid black;
     border-left: 2px solid black;
-    border-bottom: 2px solid black;
-}
-#a3{
-    border-right: 2px solid black;
     border-bottom: 2px solid black;
 }
 #a4{
@@ -34,28 +29,37 @@ header{
     border-right: 2px solid black;
     border-left: 2px solid black;
 }
+#a3{
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+}
+    
 img{
-    width: 500px;
     height: 300px;
-}
-#Politics{
-    background-color:#f4f487 ;
-    grid-area: Politics;
-}
-#Technology{
-    background-color: #78c9fb;
-    grid-area: Technology;
-}
-#Locals{
-    background-color: #1a86a9;
-    grid-area: Locals;
-}
-#Opinion{
-    background-color: #4ec8f1;
-    grid-area: Opinion;
-}
-#Sports{
-    background-color: #703682;
-    grid-area: Sports;
+    width: 400px;
 }
 
+
+.end{
+
+}
+#Politics{
+    background-color: #f8fa88;
+    height: 5vh;
+}
+#Technology{
+    background-color: #8efcfc;
+    height: 5vh;
+}
+#Locals{
+    background-color:#00bfff;
+    height:5vh;
+}
+#Opinion{
+    background-color: #52d1ed;
+    height: 5vh;
+}
+#Sports{
+    background-color: #a74aff;
+    height: 5vh;
+}
