@@ -46,20 +46,25 @@ img{
 #Politics{
     background-color: #f8fa88;
     height: 5vh;
+    grid-area: Politics;
 }
 #Technology{
     background-color: #8efcfc;
     height: 5vh;
+    grid-area: Technology;
 }
 #Locals{
     background-color:#00bfff;
     height:5vh;
+    grid-area: Locals;
 }
 #Opinion{
     background-color: #52d1ed;
     height: 5vh;
+    grid-area: Opinion;
 }
 #Sports{
     background-color: #a74aff;
     height: 5vh;
+    grid-area: Sports;
 }
